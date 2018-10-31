@@ -24,9 +24,7 @@ We do not want you to:
 - Change the build configuration of the project
 - Worry too much about browser compatibility or responsiveness (it will be tested in Chrome on a Mac).
 
-Using internal component state is fine, but you're welcome to use redux/context (or any other state library) if you wish.
-Please justify your choice to (or not to) use a library in `FRONTEND-NOTES.md`.
-
+We would like you to use REDUX for the state management, as this is what we use on our application.
 We are looking for clean code, with sensible component structure and data propagation.
 
 If you have any issues please email at@filtered.com.
