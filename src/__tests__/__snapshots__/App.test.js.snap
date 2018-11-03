@@ -1,0 +1,248 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders 1`] = `
+<div
+  class="wrapper"
+>
+  <div
+    class="asset-summary"
+  >
+    <div
+      class="container"
+    >
+      <div
+        class="row"
+      >
+        <div
+          class="col-6 asset-summary-left"
+        >
+          <span>
+            4 assets
+          </span>
+        </div>
+        <div
+          class="col-6 asset-summary-right"
+        >
+          2x
+          <span
+            class="info"
+          >
+            Articles
+          </span>
+          1x
+          <span
+            class="info"
+          >
+            Documents
+          </span>
+          1x
+          <span
+            class="info"
+          >
+            Video
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="container asset-builder"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="col-4"
+      >
+        <ul
+          class="asset-picker"
+        >
+          <li
+            class="asset type-video"
+          >
+            <h2>
+              Dummy asset name
+            </h2>
+            <p>
+              <span
+                class="info"
+              >
+                4 minutes
+              </span>
+              <span
+                class="info"
+              >
+                Video
+              </span>
+            </p>
+          </li>
+          <li
+            class="asset type-video"
+          >
+            <h2>
+              Dummy asset name
+            </h2>
+            <p>
+              <span
+                class="info"
+              >
+                4 minutes
+              </span>
+              <span
+                class="info"
+              >
+                Video
+              </span>
+            </p>
+          </li>
+          <li
+            class="asset type-video"
+          >
+            <h2>
+              Dummy asset name
+            </h2>
+            <p>
+              <span
+                class="info"
+              >
+                4 minutes
+              </span>
+              <span
+                class="info"
+              >
+                Video
+              </span>
+            </p>
+          </li>
+          <li
+            class="asset type-video"
+          >
+            <h2>
+              Dummy asset name
+            </h2>
+            <p>
+              <span
+                class="info"
+              >
+                4 minutes
+              </span>
+              <span
+                class="info"
+              >
+                Video
+              </span>
+            </p>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="col-8"
+      >
+        <h2>
+          Learning Assets Preview
+        </h2>
+        <ul
+          class="asset-preview"
+        >
+          <li
+            class="asset type-article"
+          >
+            <h2>
+              Dummy asset name
+            </h2>
+            <p>
+              <span
+                class="info"
+              >
+                4 minutes
+              </span>
+              <span
+                class="info"
+              >
+                Articles
+              </span>
+            </p>
+            <button
+              class="remove-asset"
+            >
+              x
+            </button>
+          </li>
+          <li
+            class="asset type-article"
+          >
+            <h2>
+              Dummy asset name
+            </h2>
+            <p>
+              <span
+                class="info"
+              >
+                4 minutes
+              </span>
+              <span
+                class="info"
+              >
+                Articles
+              </span>
+            </p>
+            <button
+              class="remove-asset"
+            >
+              x
+            </button>
+          </li>
+          <li
+            class="asset type-document"
+          >
+            <h2>
+              Dummy asset name
+            </h2>
+            <p>
+              <span
+                class="info"
+              >
+                4 minutes
+              </span>
+              <span
+                class="info "
+              >
+                Document
+              </span>
+            </p>
+            <button
+              class="remove-asset"
+            >
+              x
+            </button>
+          </li>
+          <li
+            class="asset type-video"
+          >
+            <h2>
+              Dummy asset name
+            </h2>
+            <p>
+              <span
+                class="info"
+              >
+                4 minutes
+              </span>
+              <span
+                class="info"
+              >
+                Video
+              </span>
+            </p>
+            <button
+              class="remove-asset"
+            >
+              x
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+`;
