@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Wrapper = styled.div`
+const Wrapper = styled.li`
   align-content: space-around;
   border: 1px solid black;
   display: flex;

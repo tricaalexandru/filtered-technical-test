@@ -1,11 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders 1`] = `
-<div
+<li
   class="sc-bdVaJa itYKJL"
 >
   <h4
-    class="sc-bwzfXH ORFoN"
+    class="sc-bwzfXH kciZVc"
   >
     Asset
   </h4>
@@ -19,5 +19,5 @@ exports[`renders 1`] = `
       Video
     </p>
   </div>
-</div>
+</li>
 `;
