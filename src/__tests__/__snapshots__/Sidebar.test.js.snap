@@ -1,0 +1,196 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders 1`] = `
+<div
+  class="sc-EHOje cKvBML"
+>
+  <ul
+    class="sc-ifAKCX fdXWaM"
+  >
+    <li
+      class="sc-bdVaJa dMuIRy"
+    >
+      <h2
+        class="sc-bwzfXH cvGxoC"
+      >
+        10 Principles of Change Management
+      </h2>
+      <div
+        class="sc-htpNat utKBR"
+      >
+        <p
+          class="sc-bxivhb fZmUiV"
+        >
+          0.11 min
+        </p>
+        <p
+          class="sc-bxivhb fZmUiV"
+        >
+          Article
+        </p>
+      </div>
+    </li>
+    <li
+      class="sc-bdVaJa dMuIRy"
+    >
+      <h2
+        class="sc-bwzfXH cvGxoC"
+      >
+        Overview of change management phases
+      </h2>
+      <div
+        class="sc-htpNat utKBR"
+      >
+        <p
+          class="sc-bxivhb fZmUiV"
+        >
+          0.06 min
+        </p>
+        <p
+          class="sc-bxivhb fZmUiV"
+        >
+          Video
+        </p>
+      </div>
+    </li>
+    <li
+      class="sc-bdVaJa dMuIRy"
+    >
+      <h2
+        class="sc-bwzfXH cvGxoC"
+      >
+        Blockchain for dummies
+      </h2>
+      <div
+        class="sc-htpNat utKBR"
+      >
+        <p
+          class="sc-bxivhb fZmUiV"
+        >
+          0.15 min
+        </p>
+        <p
+          class="sc-bxivhb fZmUiV"
+        >
+          Document
+        </p>
+      </div>
+    </li>
+    <li
+      class="sc-bdVaJa dMuIRy"
+    >
+      <h2
+        class="sc-bwzfXH cvGxoC"
+      >
+        10 Principles of Change Management
+      </h2>
+      <div
+        class="sc-htpNat utKBR"
+      >
+        <p
+          class="sc-bxivhb fZmUiV"
+        >
+          0.02 min
+        </p>
+        <p
+          class="sc-bxivhb fZmUiV"
+        >
+          Online Course
+        </p>
+      </div>
+    </li>
+    <li
+      class="sc-bdVaJa dMuIRy"
+    >
+      <h2
+        class="sc-bwzfXH cvGxoC"
+      >
+        It's ok I'm only busy for a while
+      </h2>
+      <div
+        class="sc-htpNat utKBR"
+      >
+        <p
+          class="sc-bxivhb fZmUiV"
+        >
+          0.11 min
+        </p>
+        <p
+          class="sc-bxivhb fZmUiV"
+        >
+          Video
+        </p>
+      </div>
+    </li>
+    <li
+      class="sc-bdVaJa dMuIRy"
+    >
+      <h2
+        class="sc-bwzfXH cvGxoC"
+      >
+        Why Carving Out 5 Hours Every Day For Difficult Work Can Lead To Greatness
+      </h2>
+      <div
+        class="sc-htpNat utKBR"
+      >
+        <p
+          class="sc-bxivhb fZmUiV"
+        >
+          0.09 min
+        </p>
+        <p
+          class="sc-bxivhb fZmUiV"
+        >
+          Document
+        </p>
+      </div>
+    </li>
+    <li
+      class="sc-bdVaJa dMuIRy"
+    >
+      <h2
+        class="sc-bwzfXH cvGxoC"
+      >
+        Multi-tasking: you're making yourself slower and dumber
+      </h2>
+      <div
+        class="sc-htpNat utKBR"
+      >
+        <p
+          class="sc-bxivhb fZmUiV"
+        >
+          0.21 min
+        </p>
+        <p
+          class="sc-bxivhb fZmUiV"
+        >
+          Document
+        </p>
+      </div>
+    </li>
+    <li
+      class="sc-bdVaJa dMuIRy"
+    >
+      <h2
+        class="sc-bwzfXH cvGxoC"
+      >
+        Overview of change management phases
+      </h2>
+      <div
+        class="sc-htpNat utKBR"
+      >
+        <p
+          class="sc-bxivhb fZmUiV"
+        >
+          0.06 min
+        </p>
+        <p
+          class="sc-bxivhb fZmUiV"
+        >
+          Video
+        </p>
+      </div>
+    </li>
+  </ul>
+</div>
+`;

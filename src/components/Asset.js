@@ -1,38 +1,47 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 const Wrapper = styled.li`
-  align-content: space-around;
-  border: 1px solid black;
   display: flex;
   flex-wrap: wrap;
-  padding: 0.75em;
-  width: 20em;
+  margin-bottom: 20px;
+  padding: 20px;
 `;
 
-const Name = styled.h4`
-  flex: 1 1 100%;
+const Name = styled.h2`
+  flex: 0 0 100%;
+  font-size: 12px;
+  margin: 0 0 0.5em 0;
 `;
 
-const DetailsWrapper = styled.div`
-  align-items: center;
+const TextWrapper = styled.div`
   display: flex;
-  flex: 1 1 100%;
-
-  > p {
-    font-size: 0.8em
-    margin: 0 1rem 0 0;
-  }
+  flex: 0 0 100%;
 `;
 
-const Asset = () => (
+const Text = styled.p`
+  margin: 0 1em 0 0;
+`;
+
+const Asset = ({ asset }) => (
   <Wrapper>
-    <Name>Asset</Name>
-    <DetailsWrapper>
-      <p>4 minutes</p>
-      <p>Video</p>
-    </DetailsWrapper>
+    <Name>{asset.name}</Name>
+    <TextWrapper>
+      <Text>{`${asset.duration} ${asset.durationType}`}</Text>
+      <Text>{asset.type}</Text>
+    </TextWrapper>
   </Wrapper>
 );
+
+Asset.propTypes = {
+  asset: PropTypes.shape({
+    id: PropTypes.number,
+    name: PropTypes.string,
+    type: PropTypes.string,
+    duration: PropTypes.string,
+    durationType: PropTypes.string
+  })
+};
 
 export default Asset;

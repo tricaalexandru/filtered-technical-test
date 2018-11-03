@@ -2,21 +2,25 @@
 
 exports[`renders 1`] = `
 <li
-  class="sc-bdVaJa itYKJL"
+  class="sc-bdVaJa dMuIRy"
 >
-  <h4
-    class="sc-bwzfXH kciZVc"
+  <h2
+    class="sc-bwzfXH cvGxoC"
   >
-    Asset
-  </h4>
+    Mock Name
+  </h2>
   <div
-    class="sc-htpNat drOdFN"
+    class="sc-htpNat utKBR"
   >
-    <p>
-      4 minutes
+    <p
+      class="sc-bxivhb fZmUiV"
+    >
+      0.11 min
     </p>
-    <p>
-      Video
+    <p
+      class="sc-bxivhb fZmUiV"
+    >
+      Mock Type
     </p>
   </div>
 </li>

@@ -2,156 +2,188 @@
 
 exports[`renders 1`] = `
 <ul
-  class="sc-bxivhb eFWbBB"
+  class="sc-ifAKCX fdXWaM"
 >
   <li
-    class="sc-bdVaJa itYKJL"
+    class="sc-bdVaJa dMuIRy"
   >
-    <h4
-      class="sc-bwzfXH kciZVc"
+    <h2
+      class="sc-bwzfXH cvGxoC"
     >
-      Asset
-    </h4>
+      10 Principles of Change Management
+    </h2>
     <div
-      class="sc-htpNat drOdFN"
+      class="sc-htpNat utKBR"
     >
-      <p>
-        4 minutes
+      <p
+        class="sc-bxivhb fZmUiV"
+      >
+        0.11 min
       </p>
-      <p>
+      <p
+        class="sc-bxivhb fZmUiV"
+      >
+        Article
+      </p>
+    </div>
+  </li>
+  <li
+    class="sc-bdVaJa dMuIRy"
+  >
+    <h2
+      class="sc-bwzfXH cvGxoC"
+    >
+      Overview of change management phases
+    </h2>
+    <div
+      class="sc-htpNat utKBR"
+    >
+      <p
+        class="sc-bxivhb fZmUiV"
+      >
+        0.06 min
+      </p>
+      <p
+        class="sc-bxivhb fZmUiV"
+      >
         Video
       </p>
     </div>
   </li>
   <li
-    class="sc-bdVaJa itYKJL"
+    class="sc-bdVaJa dMuIRy"
   >
-    <h4
-      class="sc-bwzfXH kciZVc"
+    <h2
+      class="sc-bwzfXH cvGxoC"
     >
-      Asset
-    </h4>
+      Blockchain for dummies
+    </h2>
     <div
-      class="sc-htpNat drOdFN"
+      class="sc-htpNat utKBR"
     >
-      <p>
-        4 minutes
+      <p
+        class="sc-bxivhb fZmUiV"
+      >
+        0.15 min
       </p>
-      <p>
+      <p
+        class="sc-bxivhb fZmUiV"
+      >
+        Document
+      </p>
+    </div>
+  </li>
+  <li
+    class="sc-bdVaJa dMuIRy"
+  >
+    <h2
+      class="sc-bwzfXH cvGxoC"
+    >
+      10 Principles of Change Management
+    </h2>
+    <div
+      class="sc-htpNat utKBR"
+    >
+      <p
+        class="sc-bxivhb fZmUiV"
+      >
+        0.02 min
+      </p>
+      <p
+        class="sc-bxivhb fZmUiV"
+      >
+        Online Course
+      </p>
+    </div>
+  </li>
+  <li
+    class="sc-bdVaJa dMuIRy"
+  >
+    <h2
+      class="sc-bwzfXH cvGxoC"
+    >
+      It's ok I'm only busy for a while
+    </h2>
+    <div
+      class="sc-htpNat utKBR"
+    >
+      <p
+        class="sc-bxivhb fZmUiV"
+      >
+        0.11 min
+      </p>
+      <p
+        class="sc-bxivhb fZmUiV"
+      >
         Video
       </p>
     </div>
   </li>
   <li
-    class="sc-bdVaJa itYKJL"
+    class="sc-bdVaJa dMuIRy"
   >
-    <h4
-      class="sc-bwzfXH kciZVc"
+    <h2
+      class="sc-bwzfXH cvGxoC"
     >
-      Asset
-    </h4>
+      Why Carving Out 5 Hours Every Day For Difficult Work Can Lead To Greatness
+    </h2>
     <div
-      class="sc-htpNat drOdFN"
+      class="sc-htpNat utKBR"
     >
-      <p>
-        4 minutes
+      <p
+        class="sc-bxivhb fZmUiV"
+      >
+        0.09 min
       </p>
-      <p>
-        Video
+      <p
+        class="sc-bxivhb fZmUiV"
+      >
+        Document
       </p>
     </div>
   </li>
   <li
-    class="sc-bdVaJa itYKJL"
+    class="sc-bdVaJa dMuIRy"
   >
-    <h4
-      class="sc-bwzfXH kciZVc"
+    <h2
+      class="sc-bwzfXH cvGxoC"
     >
-      Asset
-    </h4>
+      Multi-tasking: you're making yourself slower and dumber
+    </h2>
     <div
-      class="sc-htpNat drOdFN"
+      class="sc-htpNat utKBR"
     >
-      <p>
-        4 minutes
+      <p
+        class="sc-bxivhb fZmUiV"
+      >
+        0.21 min
       </p>
-      <p>
-        Video
+      <p
+        class="sc-bxivhb fZmUiV"
+      >
+        Document
       </p>
     </div>
   </li>
   <li
-    class="sc-bdVaJa itYKJL"
+    class="sc-bdVaJa dMuIRy"
   >
-    <h4
-      class="sc-bwzfXH kciZVc"
+    <h2
+      class="sc-bwzfXH cvGxoC"
     >
-      Asset
-    </h4>
+      Overview of change management phases
+    </h2>
     <div
-      class="sc-htpNat drOdFN"
+      class="sc-htpNat utKBR"
     >
-      <p>
-        4 minutes
+      <p
+        class="sc-bxivhb fZmUiV"
+      >
+        0.06 min
       </p>
-      <p>
-        Video
-      </p>
-    </div>
-  </li>
-  <li
-    class="sc-bdVaJa itYKJL"
-  >
-    <h4
-      class="sc-bwzfXH kciZVc"
-    >
-      Asset
-    </h4>
-    <div
-      class="sc-htpNat drOdFN"
-    >
-      <p>
-        4 minutes
-      </p>
-      <p>
-        Video
-      </p>
-    </div>
-  </li>
-  <li
-    class="sc-bdVaJa itYKJL"
-  >
-    <h4
-      class="sc-bwzfXH kciZVc"
-    >
-      Asset
-    </h4>
-    <div
-      class="sc-htpNat drOdFN"
-    >
-      <p>
-        4 minutes
-      </p>
-      <p>
-        Video
-      </p>
-    </div>
-  </li>
-  <li
-    class="sc-bdVaJa itYKJL"
-  >
-    <h4
-      class="sc-bwzfXH kciZVc"
-    >
-      Asset
-    </h4>
-    <div
-      class="sc-htpNat drOdFN"
-    >
-      <p>
-        4 minutes
-      </p>
-      <p>
+      <p
+        class="sc-bxivhb fZmUiV"
+      >
         Video
       </p>
     </div>
