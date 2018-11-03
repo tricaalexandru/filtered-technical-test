@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import AssetList from './AssetList';
 
@@ -10,10 +11,14 @@ const Wrapper = styled.div`
   padding: 0 1em;
 `;
 
-const Sidebar = () => (
+const Sidebar = ({ assetList }) => (
   <Wrapper>
-    <AssetList />
+    <AssetList assetList={assetList} />
   </Wrapper>
 );
+
+Sidebar.propTypes = {
+  assetList: PropTypes.arrayOf(PropTypes.object)
+};
 
 export default Sidebar;

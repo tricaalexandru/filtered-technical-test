@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
-import rootReducer from './rootReducer';
+import sidebarReducer from './sidebarReducer';
 
 export default combineReducers({
-  rootReducer
+  sidebarReducer
 });

@@ -12,4 +12,11 @@ test('renders', () => {
   };
   const { container } = render(<Asset asset={mockAsset} />);
   expect(container.firstChild).toMatchSnapshot();
+  expect(container.querySelector('h2')).toHaveTextContent('Mock Name');
+  expect(container.querySelector('p span:nth-child(1)')).toHaveTextContent(
+    '0.11 min'
+  );
+  expect(container.querySelector('p span:nth-child(2)')).toHaveTextContent(
+    'Mock Type'
+  );
 });

@@ -1,7 +1,7 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import Asset from './Asset';
-import assets from '../assets';
 
 const Wrapper = styled.ul`
   border-radius: 0.313em;
@@ -12,12 +12,15 @@ const Wrapper = styled.ul`
   padding: 1.25em;
 `;
 
-const AssetList = () => (
+const AssetList = ({ assetList }) => (
   <Wrapper>
-    {assets.map(asset => (
-      <Asset key={asset.id} asset={asset} />
-    ))}
+    {assetList &&
+      assetList.map(asset => <Asset key={asset.id} asset={asset} />)}
   </Wrapper>
 );
+
+AssetList.propTypes = {
+  assetList: PropTypes.arrayOf(PropTypes.object)
+};
 
 export default AssetList;
