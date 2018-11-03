@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders 1`] = `
+<div
+  class="sc-bdVaJa itYKJL"
+>
+  <h4
+    class="sc-bwzfXH ORFoN"
+  >
+    Asset
+  </h4>
+  <div
+    class="sc-htpNat drOdFN"
+  >
+    <p>
+      4 minutes
+    </p>
+    <p>
+      Video
+    </p>
+  </div>
+</div>
+`;

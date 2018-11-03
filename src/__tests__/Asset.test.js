@@ -1,8 +1,8 @@
 import React from 'react';
 import { render } from 'react-testing-library';
-import App from '../App';
+import Asset from '../components/Asset';
 
 test('renders', () => {
-  const { container } = render(<App />);
+  const { container } = render(<Asset />);
   expect(container.firstChild).toMatchSnapshot();
 });
