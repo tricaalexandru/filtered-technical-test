@@ -2,26 +2,23 @@
 
 exports[`renders 1`] = `
 <li
-  class="sc-bdVaJa dMuIRy"
+  class="sc-bdVaJa NSasu"
+  type="Mock Type"
 >
   <h2
-    class="sc-bwzfXH cvGxoC"
+    class="sc-bwzfXH cvsGNX"
   >
     Mock Name
   </h2>
-  <div
-    class="sc-htpNat utKBR"
+  <p
+    class="sc-htpNat tMhnM"
   >
-    <p
-      class="sc-bxivhb fZmUiV"
-    >
+    <span>
       0.11 min
-    </p>
-    <p
-      class="sc-bxivhb fZmUiV"
-    >
+    </span>
+    <span>
       Mock Type
-    </p>
-  </div>
+    </span>
+  </p>
 </li>
 `;

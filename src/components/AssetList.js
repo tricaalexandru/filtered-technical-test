@@ -4,7 +4,7 @@ import Asset from './Asset';
 import assets from '../assets';
 
 const Wrapper = styled.ul`
-  border-radius: 0.313em
+  border-radius: 0.313em;
   height: 31.25em;
   list-style: none;
   margin: 0;

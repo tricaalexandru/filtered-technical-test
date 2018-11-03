@@ -2,191 +2,167 @@
 
 exports[`renders 1`] = `
 <ul
-  class="sc-ifAKCX fdXWaM"
+  class="sc-bxivhb bbZEIZ"
 >
   <li
-    class="sc-bdVaJa dMuIRy"
+    class="sc-bdVaJa iTWRwI"
+    type="Article"
   >
     <h2
-      class="sc-bwzfXH fYywSa"
+      class="sc-bwzfXH cvsGNX"
     >
       10 Principles of Change Management
     </h2>
-    <div
-      class="sc-htpNat utKBR"
+    <p
+      class="sc-htpNat tMhnM"
     >
-      <p
-        class="sc-bxivhb fZmUiV"
-      >
+      <span>
         0.11 min
-      </p>
-      <p
-        class="sc-bxivhb fZmUiV"
-      >
+      </span>
+      <span>
         Article
-      </p>
-    </div>
+      </span>
+    </p>
   </li>
   <li
-    class="sc-bdVaJa dMuIRy"
+    class="sc-bdVaJa NSasu"
+    type="Video"
   >
     <h2
-      class="sc-bwzfXH fYywSa"
+      class="sc-bwzfXH cvsGNX"
     >
       Overview of change management phases
     </h2>
-    <div
-      class="sc-htpNat utKBR"
+    <p
+      class="sc-htpNat tMhnM"
     >
-      <p
-        class="sc-bxivhb fZmUiV"
-      >
+      <span>
         0.06 min
-      </p>
-      <p
-        class="sc-bxivhb fZmUiV"
-      >
+      </span>
+      <span>
         Video
-      </p>
-    </div>
+      </span>
+    </p>
   </li>
   <li
-    class="sc-bdVaJa dMuIRy"
+    class="sc-bdVaJa hQXXxF"
+    type="Document"
   >
     <h2
-      class="sc-bwzfXH fYywSa"
+      class="sc-bwzfXH cvsGNX"
     >
       Blockchain for dummies
     </h2>
-    <div
-      class="sc-htpNat utKBR"
+    <p
+      class="sc-htpNat tMhnM"
     >
-      <p
-        class="sc-bxivhb fZmUiV"
-      >
+      <span>
         0.15 min
-      </p>
-      <p
-        class="sc-bxivhb fZmUiV"
-      >
+      </span>
+      <span>
         Document
-      </p>
-    </div>
+      </span>
+    </p>
   </li>
   <li
-    class="sc-bdVaJa dMuIRy"
+    class="sc-bdVaJa hOixVw"
+    type="Online Course"
   >
     <h2
-      class="sc-bwzfXH fYywSa"
+      class="sc-bwzfXH cvsGNX"
     >
       10 Principles of Change Management
     </h2>
-    <div
-      class="sc-htpNat utKBR"
+    <p
+      class="sc-htpNat tMhnM"
     >
-      <p
-        class="sc-bxivhb fZmUiV"
-      >
+      <span>
         0.02 min
-      </p>
-      <p
-        class="sc-bxivhb fZmUiV"
-      >
+      </span>
+      <span>
         Online Course
-      </p>
-    </div>
+      </span>
+    </p>
   </li>
   <li
-    class="sc-bdVaJa dMuIRy"
+    class="sc-bdVaJa NSasu"
+    type="Video"
   >
     <h2
-      class="sc-bwzfXH fYywSa"
+      class="sc-bwzfXH cvsGNX"
     >
       It's ok I'm only busy for a while
     </h2>
-    <div
-      class="sc-htpNat utKBR"
+    <p
+      class="sc-htpNat tMhnM"
     >
-      <p
-        class="sc-bxivhb fZmUiV"
-      >
+      <span>
         0.11 min
-      </p>
-      <p
-        class="sc-bxivhb fZmUiV"
-      >
+      </span>
+      <span>
         Video
-      </p>
-    </div>
+      </span>
+    </p>
   </li>
   <li
-    class="sc-bdVaJa dMuIRy"
+    class="sc-bdVaJa hQXXxF"
+    type="Document"
   >
     <h2
-      class="sc-bwzfXH fYywSa"
+      class="sc-bwzfXH cvsGNX"
     >
       Why Carving Out 5 Hours Every Day For Difficult Work Can Lead To Greatness
     </h2>
-    <div
-      class="sc-htpNat utKBR"
+    <p
+      class="sc-htpNat tMhnM"
     >
-      <p
-        class="sc-bxivhb fZmUiV"
-      >
+      <span>
         0.09 min
-      </p>
-      <p
-        class="sc-bxivhb fZmUiV"
-      >
+      </span>
+      <span>
         Document
-      </p>
-    </div>
+      </span>
+    </p>
   </li>
   <li
-    class="sc-bdVaJa dMuIRy"
+    class="sc-bdVaJa hQXXxF"
+    type="Document"
   >
     <h2
-      class="sc-bwzfXH fYywSa"
+      class="sc-bwzfXH cvsGNX"
     >
       Multi-tasking: you're making yourself slower and dumber
     </h2>
-    <div
-      class="sc-htpNat utKBR"
+    <p
+      class="sc-htpNat tMhnM"
     >
-      <p
-        class="sc-bxivhb fZmUiV"
-      >
+      <span>
         0.21 min
-      </p>
-      <p
-        class="sc-bxivhb fZmUiV"
-      >
+      </span>
+      <span>
         Document
-      </p>
-    </div>
+      </span>
+    </p>
   </li>
   <li
-    class="sc-bdVaJa dMuIRy"
+    class="sc-bdVaJa NSasu"
+    type="Video"
   >
     <h2
-      class="sc-bwzfXH fYywSa"
+      class="sc-bwzfXH cvsGNX"
     >
       Overview of change management phases
     </h2>
-    <div
-      class="sc-htpNat utKBR"
+    <p
+      class="sc-htpNat tMhnM"
     >
-      <p
-        class="sc-bxivhb fZmUiV"
-      >
+      <span>
         0.06 min
-      </p>
-      <p
-        class="sc-bxivhb fZmUiV"
-      >
+      </span>
+      <span>
         Video
-      </p>
-    </div>
+      </span>
+    </p>
   </li>
 </ul>
 `;

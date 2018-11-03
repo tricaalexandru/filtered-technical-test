@@ -3,6 +3,21 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 const Wrapper = styled.li`
+  background: ${props => {
+    if (props.type === 'Article') {
+      return '#131540';
+    }
+    if (props.type === 'Document') {
+      return '#6b5700';
+    }
+    if (props.type === 'Online Course') {
+      return '#1e5c8f';
+    }
+    // props.type === "Video"
+    return '#ab0d1a';
+  }}
+  color: #ffffff;
+  cursor: pointer;
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 20px;
@@ -11,26 +26,27 @@ const Wrapper = styled.li`
 
 const Name = styled.h2`
   flex: 0 0 100%;
-  font-size: 12px;
+  font-size: 0.75em;
   margin: 0 0 0.5em 0;
 `;
 
-const TextWrapper = styled.div`
-  display: flex;
-  flex: 0 0 100%;
-`;
-
-const Text = styled.p`
+const Details = styled.p`
   margin: 0 1em 0 0;
+
+  span {
+    color: #d4d4d4;
+    font-size: 0.625em;
+    margin: 0.313em;
+  }
 `;
 
 const Asset = ({ asset }) => (
-  <Wrapper>
+  <Wrapper type={asset.type}>
     <Name>{asset.name}</Name>
-    <TextWrapper>
-      <Text>{`${asset.duration} ${asset.durationType}`}</Text>
-      <Text>{asset.type}</Text>
-    </TextWrapper>
+    <Details>
+      <span>{`${asset.duration} ${asset.durationType}`}</span>
+      <span>{asset.type}</span>
+    </Details>
   </Wrapper>
 );
 

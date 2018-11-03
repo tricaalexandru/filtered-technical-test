@@ -9,8 +9,14 @@ const Wrapper = styled.div`
   padding: 0 1em;
 `;
 
+const Header = styled.h1`
+  font-size: 1.5em;
+  margin: 0 0 0.5em 0;
+`;
+
 const Preview = () => (
   <Wrapper>
+    <Header>Learning Assets Preview</Header>
     <AssetList />
   </Wrapper>
 );
