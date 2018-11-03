@@ -4,6 +4,7 @@ import { renderWithRedux } from '../setupTests';
 import Sidebar from '../components/Sidebar';
 import ConnectedSidebar from '../containers/Sidebar';
 import assets from '../assets';
+import { initialState } from '../reducers/sidebarReducer';
 
 test('renders', () => {
   const { container } = render(<Sidebar />);
@@ -11,7 +12,7 @@ test('renders', () => {
 });
 
 test('renders with Redux', () => {
-  const { container } = renderWithRedux(<ConnectedSidebar />);
+  const { container } = renderWithRedux(<ConnectedSidebar />, initialState);
   const assetName = assets[0].name;
   expect(container.querySelector('h2')).toHaveTextContent(assetName);
 });

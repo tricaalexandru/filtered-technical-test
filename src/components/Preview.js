@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import AssetList from './AssetList';
 
@@ -14,11 +15,15 @@ const Header = styled.h1`
   margin: 0 0 0.5em 0;
 `;
 
-const Preview = () => (
+const Preview = ({ assetList }) => (
   <Wrapper>
     <Header>Learning Assets Preview</Header>
-    <AssetList />
+    <AssetList assetList={assetList} />
   </Wrapper>
 );
+
+Preview.propTypes = {
+  assetList: PropTypes.arrayOf(PropTypes.object)
+};
 
 export default Preview;
