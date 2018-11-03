@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import Asset from './Asset';
+import Asset from '../containers/Asset';
 
 const Wrapper = styled.ul`
   border-radius: 0.313em;

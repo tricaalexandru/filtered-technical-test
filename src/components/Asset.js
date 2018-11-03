@@ -40,15 +40,18 @@ const Details = styled.p`
   }
 `;
 
-const Asset = ({ asset }) => (
-  <Wrapper type={asset.type}>
-    <Name>{asset.name}</Name>
-    <Details>
-      <span>{`${asset.duration} ${asset.durationType}`}</span>
-      <span>{asset.type}</span>
-    </Details>
-  </Wrapper>
-);
+const Asset = ({ asset, moveAssetFromSidebar }) => {
+  const onClick = id => moveAssetFromSidebar(id);
+  return (
+    <Wrapper onClick={() => onClick(asset.id)} type={asset.type}>
+      <Name>{asset.name}</Name>
+      <Details>
+        <span>{`${asset.duration} ${asset.durationType}`}</span>
+        <span>{asset.type}</span>
+      </Details>
+    </Wrapper>
+  );
+};
 
 Asset.propTypes = {
   asset: PropTypes.shape({
@@ -57,7 +60,8 @@ Asset.propTypes = {
     type: PropTypes.string,
     duration: PropTypes.string,
     durationType: PropTypes.string
-  })
+  }),
+  moveAssetFromSidebar: PropTypes.func
 };
 
 export default Asset;

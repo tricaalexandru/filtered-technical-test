@@ -1,0 +1,1 @@
+export const MOVE_FROM_SIDEBAR = 'MOVE_FROM_SIDEBAR';
