@@ -1,8 +1,8 @@
 import { connect } from 'react-redux';
 import Asset from '../components/Asset';
-import { moveAssetFromSidebar } from '../actions';
+import { moveAssetFromSidebar, moveAssetToPreview } from '../actions';
 
-const mapDispatchToProps = { moveAssetFromSidebar };
+const mapDispatchToProps = { moveAssetFromSidebar, moveAssetToPreview };
 
 export default connect(
   null,

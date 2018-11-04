@@ -40,10 +40,13 @@ const Details = styled.p`
   }
 `;
 
-const Asset = ({ asset, moveAssetFromSidebar }) => {
-  const onClick = id => moveAssetFromSidebar(id);
+const Asset = ({ asset, moveAssetFromSidebar, moveAssetToPreview }) => {
+  const onClick = asset => {
+    moveAssetFromSidebar(asset.id);
+    moveAssetToPreview(asset);
+  };
   return (
-    <Wrapper onClick={() => onClick(asset.id)} type={asset.type}>
+    <Wrapper onClick={() => onClick(asset)} type={asset.type}>
       <Name>{asset.name}</Name>
       <Details>
         <span>{`${asset.duration} ${asset.durationType}`}</span>
@@ -61,7 +64,8 @@ Asset.propTypes = {
     duration: PropTypes.string,
     durationType: PropTypes.string
   }),
-  moveAssetFromSidebar: PropTypes.func
+  moveAssetFromSidebar: PropTypes.func,
+  moveAssetToPreview: PropTypes.func
 };
 
 export default Asset;

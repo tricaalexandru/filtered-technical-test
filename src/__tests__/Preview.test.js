@@ -3,7 +3,6 @@ import { render } from 'react-testing-library';
 import { renderWithRedux } from '../setupTests';
 import Preview from '../components/Preview';
 import ConnectedPreview from '../containers/Preview';
-// import { initialState } from '../reducers/previewReducer'
 
 test('renders', () => {
   const { container } = render(<Preview />);
@@ -11,16 +10,6 @@ test('renders', () => {
 });
 
 test('renders with Redux', () => {
-  const { queryByText } = renderWithRedux(<ConnectedPreview />, {
-    assetList: [
-      {
-        id: 11,
-        name: '10 Principles of Change Management',
-        type: 'Article',
-        duration: '0.11',
-        durationType: 'min'
-      }
-    ]
-  });
+  const { queryByText } = renderWithRedux(<ConnectedPreview />);
   expect(queryByText('10 Principles of Change Management')).toBeNull();
 });

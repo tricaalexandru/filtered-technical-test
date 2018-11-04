@@ -7,3 +7,17 @@ test('creates an action to remove an asset from the sidebar', () => {
     id: 1
   });
 });
+
+test('creates an action to move an asset to the preview pane', () => {
+  const mockAsset = {
+    id: 11,
+    name: '10 Principles of Change Management',
+    type: 'Article',
+    duration: '0.11',
+    durationType: 'min'
+  };
+  expect(actions.moveAssetToPreview(mockAsset)).toEqual({
+    type: types.MOVE_TO_PREVIEW,
+    asset: mockAsset
+  });
+});
