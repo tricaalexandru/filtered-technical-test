@@ -24,7 +24,8 @@ const Wrapper = styled.li`
   transition: background ease 0.35s, transform cubic-bezier(0.47, 2.02, 0.31, -0.36) 0.35s;
 
   :hover:not(:disabled) {
-    transform: scale(1.1);
+    transform: ${props =>
+      props.location === 'sidebar' ? 'scale(1.1)' : 'scale(1)'}
   }
 `;
 
@@ -56,9 +57,15 @@ const Button = styled.button`
   line-height: 0px;
   padding: 0;
   position: absolute;
+  transition: transform cubic-bezier(0.47, 2.02, 0.31, -0.36) 0.35s;
   top: 0.125em;
   right: 0.125em;
   width: 1.625em;
+
+  :hover:not(:disabled) {
+    transform: ${props =>
+      props.location === 'sidebar' ? 'scale(1)' : 'scale(2)'};
+  }
 `;
 
 const Asset = ({
