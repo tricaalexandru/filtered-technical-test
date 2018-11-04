@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 const Wrapper = styled.header`
@@ -36,18 +37,69 @@ const Breakdown = styled.div`
  }
 `;
 
-const Header = () => (
+const Header = ({
+  numberOfArticles,
+  numberOfDocuments,
+  numberOfOnlineCourses,
+  numberOfVideos,
+  totalNumberOfAssets
+}) => (
   <Wrapper>
     <Summary>
       <Content>
-        <Total>4 assets</Total>
+        <Total>
+          {totalNumberOfAssets === 1
+            ? '1 asset'
+            : `${totalNumberOfAssets} assets`}
+        </Total>
         <Breakdown>
-          2 x <span>Articles</span>, 1 x <span>Documents</span>, 1 x{' '}
-          <span>Video</span>
+          {numberOfArticles > 0 && (
+            <Fragment>
+              {numberOfArticles} x{' '}
+              <span>{numberOfArticles === 1 ? 'Article' : 'Articles'}</span>
+              {(numberOfDocuments > 0 ||
+                numberOfOnlineCourses > 0 ||
+                numberOfVideos > 0) && <Fragment>{', '}</Fragment>}
+            </Fragment>
+          )}
+          {numberOfDocuments > 0 && (
+            <Fragment>
+              {numberOfDocuments} x{' '}
+              <span>{numberOfDocuments === 1 ? 'Document' : 'Documents'}</span>
+              {(numberOfOnlineCourses > 0 || numberOfVideos > 0) && (
+                <Fragment>{', '}</Fragment>
+              )}
+            </Fragment>
+          )}
+          {numberOfOnlineCourses > 0 && (
+            <Fragment>
+              {numberOfOnlineCourses} x{' '}
+              <span>
+                {numberOfOnlineCourses === 1
+                  ? 'Online Course'
+                  : 'Online Courses'}
+              </span>
+              {numberOfVideos > 0 && <Fragment>{', '}</Fragment>}
+            </Fragment>
+          )}
+          {numberOfVideos > 0 && (
+            <Fragment>
+              {numberOfVideos} x{' '}
+              <span>{numberOfVideos === 1 ? 'Video' : 'Videos'}</span>
+            </Fragment>
+          )}
         </Breakdown>
       </Content>
     </Summary>
   </Wrapper>
 );
+
+Header.propTypes = {
+  numberOfArticles: PropTypes.number,
+  numberOfDocuments: PropTypes.number,
+  numberOfOnlineCourses: PropTypes.number,
+  numberOfVideos: PropTypes.number,
+  totalNumberOfAssets: PropTypes.number
+};
 
 export default Header;

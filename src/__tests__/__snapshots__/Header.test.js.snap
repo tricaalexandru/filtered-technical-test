@@ -13,24 +13,11 @@ exports[`renders 1`] = `
       <div
         class="sc-bxivhb cRjziJ"
       >
-        4 assets
+        undefined assets
       </div>
       <div
         class="sc-ifAKCX cOHJjj"
-      >
-        2 x 
-        <span>
-          Articles
-        </span>
-        , 1 x 
-        <span>
-          Documents
-        </span>
-        , 1 x
-        <span>
-          Video
-        </span>
-      </div>
+      />
     </div>
   </div>
 </header>
