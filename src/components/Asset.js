@@ -21,6 +21,11 @@ const Wrapper = styled.li`
   margin-bottom: 1.25em;
   padding: 0.625em;
   position: relative;
+  transition: background ease 0.35s, transform cubic-bezier(0.47, 2.02, 0.31, -0.36) 0.35s;
+
+  :hover:not(:disabled) {
+    transform: scale(1.1);
+  }
 `;
 
 const Name = styled.h2`
