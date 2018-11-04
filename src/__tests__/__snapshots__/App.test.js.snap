@@ -2,247 +2,215 @@
 
 exports[`renders 1`] = `
 <div
-  class="wrapper"
+  class="sc-VigVT kDCSrE"
 >
-  <div
-    class="asset-summary"
+  <header
+    class="sc-htoDjs cbhjhM"
   >
     <div
-      class="container"
+      class="sc-dnqmqq zDFHM"
     >
       <div
-        class="row"
+        class="sc-iwsKbI iPxjAL"
       >
         <div
-          class="col-6 asset-summary-left"
+          class="sc-gZMcBi cAaVkP"
         >
-          <span>
-            4 assets
-          </span>
+          0 assets
         </div>
         <div
-          class="col-6 asset-summary-right"
-        >
-          2x
-          <span
-            class="info"
-          >
-            Articles
-          </span>
-          1x
-          <span
-            class="info"
-          >
-            Documents
-          </span>
-          1x
-          <span
-            class="info"
-          >
-            Video
-          </span>
-        </div>
+          class="sc-gqjmRU YewBh"
+        />
       </div>
     </div>
-  </div>
-  <div
-    class="container asset-builder"
+  </header>
+  <main
+    class="sc-jTzLTM eooEdb"
   >
     <div
-      class="row"
+      class="sc-fjdhpX Lovfj"
     >
       <div
-        class="col-4"
+        class="sc-EHOje lonMAp"
       >
         <ul
-          class="asset-picker"
+          class="sc-ifAKCX hcmkp"
         >
           <li
-            class="asset type-video"
+            class="sc-bdVaJa ftOXwV"
+            type="Article"
           >
-            <h2>
-              Dummy asset name
-            </h2>
-            <p>
-              <span
-                class="info"
-              >
-                4 minutes
-              </span>
-              <span
-                class="info"
-              >
-                Video
-              </span>
-            </p>
-          </li>
-          <li
-            class="asset type-video"
-          >
-            <h2>
-              Dummy asset name
-            </h2>
-            <p>
-              <span
-                class="info"
-              >
-                4 minutes
-              </span>
-              <span
-                class="info"
-              >
-                Video
-              </span>
-            </p>
-          </li>
-          <li
-            class="asset type-video"
-          >
-            <h2>
-              Dummy asset name
-            </h2>
-            <p>
-              <span
-                class="info"
-              >
-                4 minutes
-              </span>
-              <span
-                class="info"
-              >
-                Video
-              </span>
-            </p>
-          </li>
-          <li
-            class="asset type-video"
-          >
-            <h2>
-              Dummy asset name
-            </h2>
-            <p>
-              <span
-                class="info"
-              >
-                4 minutes
-              </span>
-              <span
-                class="info"
-              >
-                Video
-              </span>
-            </p>
-          </li>
-        </ul>
-      </div>
-      <div
-        class="col-8"
-      >
-        <h2>
-          Learning Assets Preview
-        </h2>
-        <ul
-          class="asset-preview"
-        >
-          <li
-            class="asset type-article"
-          >
-            <h2>
-              Dummy asset name
-            </h2>
-            <p>
-              <span
-                class="info"
-              >
-                4 minutes
-              </span>
-              <span
-                class="info"
-              >
-                Articles
-              </span>
-            </p>
-            <button
-              class="remove-asset"
+            <h2
+              class="sc-bwzfXH hAFfpb"
             >
-              x
-            </button>
-          </li>
-          <li
-            class="asset type-article"
-          >
-            <h2>
-              Dummy asset name
+              10 Principles of Change Management
             </h2>
-            <p>
-              <span
-                class="info"
-              >
-                4 minutes
+            <p
+              class="sc-htpNat tMhnM"
+            >
+              <span>
+                0.11 min
               </span>
-              <span
-                class="info"
-              >
-                Articles
+              <span>
+                Article
               </span>
             </p>
-            <button
-              class="remove-asset"
-            >
-              x
-            </button>
           </li>
           <li
-            class="asset type-document"
+            class="sc-bdVaJa dzDBqC"
+            type="Video"
           >
-            <h2>
-              Dummy asset name
+            <h2
+              class="sc-bwzfXH hAFfpb"
+            >
+              Overview of change management phases
             </h2>
-            <p>
-              <span
-                class="info"
-              >
-                4 minutes
+            <p
+              class="sc-htpNat tMhnM"
+            >
+              <span>
+                0.06 min
               </span>
-              <span
-                class="info "
-              >
+              <span>
+                Video
+              </span>
+            </p>
+          </li>
+          <li
+            class="sc-bdVaJa ezDaKQ"
+            type="Document"
+          >
+            <h2
+              class="sc-bwzfXH hAFfpb"
+            >
+              Blockchain for dummies
+            </h2>
+            <p
+              class="sc-htpNat tMhnM"
+            >
+              <span>
+                0.15 min
+              </span>
+              <span>
                 Document
               </span>
             </p>
-            <button
-              class="remove-asset"
-            >
-              x
-            </button>
           </li>
           <li
-            class="asset type-video"
+            class="sc-bdVaJa lkzawG"
+            type="Online Course"
           >
-            <h2>
-              Dummy asset name
+            <h2
+              class="sc-bwzfXH hAFfpb"
+            >
+              10 Principles of Change Management
             </h2>
-            <p>
-              <span
-                class="info"
-              >
-                4 minutes
+            <p
+              class="sc-htpNat tMhnM"
+            >
+              <span>
+                0.02 min
               </span>
-              <span
-                class="info"
-              >
+              <span>
+                Online Course
+              </span>
+            </p>
+          </li>
+          <li
+            class="sc-bdVaJa dzDBqC"
+            type="Video"
+          >
+            <h2
+              class="sc-bwzfXH hAFfpb"
+            >
+              It's ok I'm only busy for a while
+            </h2>
+            <p
+              class="sc-htpNat tMhnM"
+            >
+              <span>
+                0.11 min
+              </span>
+              <span>
                 Video
               </span>
             </p>
-            <button
-              class="remove-asset"
+          </li>
+          <li
+            class="sc-bdVaJa ezDaKQ"
+            type="Document"
+          >
+            <h2
+              class="sc-bwzfXH hAFfpb"
             >
-              x
-            </button>
+              Why Carving Out 5 Hours Every Day For Difficult Work Can Lead To Greatness
+            </h2>
+            <p
+              class="sc-htpNat tMhnM"
+            >
+              <span>
+                0.09 min
+              </span>
+              <span>
+                Document
+              </span>
+            </p>
+          </li>
+          <li
+            class="sc-bdVaJa ezDaKQ"
+            type="Document"
+          >
+            <h2
+              class="sc-bwzfXH hAFfpb"
+            >
+              Multi-tasking: you're making yourself slower and dumber
+            </h2>
+            <p
+              class="sc-htpNat tMhnM"
+            >
+              <span>
+                0.21 min
+              </span>
+              <span>
+                Document
+              </span>
+            </p>
+          </li>
+          <li
+            class="sc-bdVaJa dzDBqC"
+            type="Video"
+          >
+            <h2
+              class="sc-bwzfXH hAFfpb"
+            >
+              Overview of change management phases
+            </h2>
+            <p
+              class="sc-htpNat tMhnM"
+            >
+              <span>
+                0.06 min
+              </span>
+              <span>
+                Video
+              </span>
+            </p>
           </li>
         </ul>
       </div>
+      <div
+        class="sc-bZQynM byoWqO"
+      >
+        <h1
+          class="sc-gzVnrw cqLWpc"
+        >
+          Learning Assets Preview
+        </h1>
+        <ul
+          class="sc-ifAKCX hcmkp"
+        />
+      </div>
     </div>
-  </div>
+  </main>
 </div>
 `;

@@ -1,8 +1,8 @@
 import React from 'react';
-import { render } from 'react-testing-library';
+import { renderWithRedux } from '../setupTests';
 import App from '../App';
 
 test('renders', () => {
-  const { container } = render(<App />);
+  const { container } = renderWithRedux(<App />);
   expect(container.firstChild).toMatchSnapshot();
 });
