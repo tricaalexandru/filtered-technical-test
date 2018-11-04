@@ -13,7 +13,7 @@ const Wrapper = styled.div`
 
 const Sidebar = ({ assetList }) => (
   <Wrapper>
-    <AssetList assetList={assetList} />
+    <AssetList assetList={assetList} assetLocation="sidebar" />
   </Wrapper>
 );
 

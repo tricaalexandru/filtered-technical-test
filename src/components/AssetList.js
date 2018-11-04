@@ -12,15 +12,18 @@ const Wrapper = styled.ul`
   padding: 1.25em;
 `;
 
-const AssetList = ({ assetList }) => (
+const AssetList = ({ assetList, assetLocation }) => (
   <Wrapper>
     {assetList &&
-      assetList.map(asset => <Asset key={asset.id} asset={asset} />)}
+      assetList.map(asset => (
+        <Asset key={asset.id} asset={asset} assetLocation={assetLocation} />
+      ))}
   </Wrapper>
 );
 
 AssetList.propTypes = {
-  assetList: PropTypes.arrayOf(PropTypes.object)
+  assetList: PropTypes.arrayOf(PropTypes.object),
+  assetLocation: PropTypes.string
 };
 
 export default AssetList;

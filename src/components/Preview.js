@@ -18,7 +18,7 @@ const Header = styled.h1`
 const Preview = ({ assetList }) => (
   <Wrapper>
     <Header>Learning Assets Preview</Header>
-    <AssetList assetList={assetList} />
+    <AssetList assetList={assetList} assetLocation="preview" />
   </Wrapper>
 );
 

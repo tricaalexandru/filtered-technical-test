@@ -7,3 +7,8 @@ export const moveAssetToPreview = asset => ({
   type: 'MOVE_TO_PREVIEW',
   asset
 });
+
+export const removeAssetFromMenu = id => ({
+  type: 'REMOVE',
+  id
+});

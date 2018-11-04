@@ -2,15 +2,15 @@
 
 exports[`renders 1`] = `
 <div
-  class="sc-ifAKCX nDcFa"
+  class="sc-EHOje lpawV"
 >
   <h1
-    class="sc-EHOje aSQUj"
+    class="sc-bZQynM gIPWju"
   >
     Learning Assets Preview
   </h1>
   <ul
-    class="sc-bxivhb bbZEIZ"
+    class="sc-ifAKCX hcmkp"
   />
 </div>
 `;
