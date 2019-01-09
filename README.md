@@ -7,8 +7,6 @@ environment to a level you feel is an accurate representation of your skill set.
 
 If you are applying for a frontend role, please complete `README-FRONTEND.md`.
 
-Each part should take 2-3 hours depending on experience.
-
 If you have any questions or would like to clarify any details, please email at@filtered.com.
 
 Good luck!
