@@ -61,7 +61,7 @@ class LeftColumn extends React.Component {
 	this.cssMappingOnType = {
 	    "Article": "asset type-article",
 	    "Video": "asset type-video",
-	    "Document": "asset type-documen",
+	    "Document": "asset type-document",
 	    "Online Course": "asset type-course"
 	};
     }
