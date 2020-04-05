@@ -3,7 +3,35 @@ import defaultData from './assets.js';
 import './App.css';
 
 class TopLine extends React.Component {
+    constructor(props) {
+	super(props);
+	this.state = { data: [] };
+    }
+
+    async componentDidMount() {
+	this.setState({data: [{"setup": "loading...", "punchline": "loading..."}]});
+	console.log("STUB:1");
+
+	try {
+	    const resp = await fetch("http://localhost:8080/random_joke/");
+	    if (!resp.ok) {
+		this.setState({data: [{"setup": "ERROR...", "punchline": "ERROR..."}]});
+		throw Error(resp.statusText);
+	    }
+
+	    const json = await resp.json();
+	    console.log(json);
+	    this.setState({data: [json]});
+
+	} catch (error) {
+	    this.setState({data: [{"setup": "ERROR...", "punchline": "ERROR..."}]});
+	    console.log(error);
+	}
+    }
+
     render() {
+	console.log("STUB:2");
+	let { data } = this.state;
 	return (
 		<div className="asset-summary">
 		<div className="container">
@@ -16,7 +44,11 @@ class TopLine extends React.Component {
 		1x<span className="info">Documents</span>
 		1x<span className="info">Video</span>
 		</div>
-		</div>
+		Joke:
+
+	    {data.map((row, idx) => <span key={idx}> {row.setup} , {row.punchline} </span>)}
+
+	    </div>
 		</div>
 		</div>
 	);
@@ -48,7 +80,7 @@ class LeftColumn extends React.Component {
 
 		{defaultData.map((item, index) => {
 		    return (
-			    <li className={this.cssMappingOnType[item.type]}>
+			    <li key={index} className={this.cssMappingOnType[item.type]}>
 			    <h2>{item.name}</h2>
 			    <p>
 			    {this.handleDuration(item)}
