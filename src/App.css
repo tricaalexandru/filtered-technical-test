@@ -77,6 +77,10 @@ li.type-video {
     background: #F14B5A;
 }
 
+li.type-course {
+    background: #AA11AA;
+}
+
 button.remove-asset {
     position: absolute;
     top: 2px;
