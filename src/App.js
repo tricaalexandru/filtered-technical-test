@@ -22,17 +22,24 @@ class TopLine extends Component {
     }
 }
 
+const cssMappingOnType = {
+    "Article": "asset type-article",
+    "Video": "asset type-video",
+    "Document": "asset type-document",
+    "Online Course": "asset type-course",
+    "Joke": "asset type-joke",
+    "programming": "asset type-joke",
+};
+
+function updateState(new_joke) {
+    let clone = new Map(this.state.data);
+    clone.set(new_joke.id, new_joke);
+    this.setState({data: clone});
+}
+
 class LeftColumn extends React.Component {
     constructor(props) {
 	super(props);
-	this.cssMappingOnType = {
-	    "Article": "asset type-article",
-	    "Video": "asset type-video",
-	    "Document": "asset type-document",
-	    "Online Course": "asset type-course",
-	    "Joke": "asset type-joke",
-	    "programming": "asset type-joke",
-	};
 	this.state = {
 	    data: new Map(),
 	};
@@ -94,7 +101,7 @@ class LeftColumn extends React.Component {
 		{[...data].map((val, index) => {
 		    const item = val[1];
 		    return (
-			    <li key={index} className={this.cssMappingOnType[item.type]}>
+			    <li key={index} className={cssMappingOnType[item.type]} onClick={(e) => updateState(item)} >
 			    <h2>{item.id}</h2>
 			    <p>
 			    <span className="info">{item.setup}</span>
@@ -110,43 +117,31 @@ class LeftColumn extends React.Component {
 }
 
 class RightColumn extends React.Component {
+    constructor(props) {
+	super(props);
+	this.state = {
+	    data: new Map(),
+	};
+	updateState = updateState.bind(this);
+    }
+
     render() {
 	return (
 		<div className="col-8">
 		<h2>Learning Assets Preview</h2>
 		<ul className="asset-preview">
-		<li className="asset type-article">
-		<h2>Dummy asset name</h2>
-		<p>
-		<span className="info">4 minutes</span>
-		<span className="info">Articles</span>
-		</p>
-		<button className="remove-asset">x</button>
-		</li>
-		<li className="asset type-article">
-		<h2>Dummy asset name</h2>
-		<p>
-		<span className="info">4 minutes</span>
-		<span className="info">Articles</span>
-		</p>
-		<button className="remove-asset">x</button>
-		</li>
-		<li className="asset type-document">
-		<h2>Dummy asset name</h2>
-		<p>
-		<span className="info">4 minutes</span>
-		<span className="info ">Document</span>
-		</p>
-		<button className="remove-asset">x</button>
-		</li>
-		<li className="asset type-video">
-		<h2>Dummy asset name</h2>
-		<p>
-		<span className="info">4 minutes</span>
-		<span className="info">Video</span>
-		</p>
-		<button className="remove-asset">x</button>
-		</li>
+		{[...this.state.data].map((val, index) => {
+		    const item = val[1];
+		    return (
+			    <li key={index} className={cssMappingOnType[item.type]}>
+			    <h2>{item.id}</h2>
+			    <p>
+			    <span className="info">{item.setup}</span>
+			    <span className="info">{item.punchline}</span>
+			    </p>
+			    <button className="remove-asset">x</button>
+			    </li>);
+		})}
 		</ul>
 		</div>
 	);
