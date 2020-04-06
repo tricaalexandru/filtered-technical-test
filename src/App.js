@@ -37,6 +37,12 @@ function updateState(new_joke) {
     this.setState({data: clone});
 }
 
+function removeJoke(joke_id) {
+    let clone = new Map(this.state.data);
+    clone.delete(joke_id);
+    this.setState({data: clone});
+}
+
 class LeftColumn extends React.Component {
     constructor(props) {
 	super(props);
@@ -72,7 +78,6 @@ class LeftColumn extends React.Component {
 	    }
 
 	    const joke = await resp.json();
-	    console.log("STUB:", joke);
 	    clone.delete(-1);
 	    clone.set(joke.id, joke);
 
@@ -123,6 +128,7 @@ class RightColumn extends React.Component {
 	    data: new Map(),
 	};
 	updateState = updateState.bind(this);
+	removeJoke = removeJoke.bind(this);
     }
 
     render() {
@@ -139,7 +145,7 @@ class RightColumn extends React.Component {
 			    <span className="info">{item.setup}</span>
 			    <span className="info">{item.punchline}</span>
 			    </p>
-			    <button className="remove-asset">x</button>
+			    <button className="remove-asset" onClick={(e) => removeJoke(item.id)}>x</button>
 			    </li>);
 		})}
 		</ul>
