@@ -81,6 +81,10 @@ li.type-course {
     background: #AA11AA;
 }
 
+li.type-joke {
+    background: #F00000;
+}
+
 button.remove-asset {
     position: absolute;
     top: 2px;
