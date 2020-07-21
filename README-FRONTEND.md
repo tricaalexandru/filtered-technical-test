@@ -11,6 +11,7 @@ For this challenge, we would like you to:
 - Be able to remove assets from the menu by clicking the (x)
 - Show the total number of selected assets in the header
 - Show the total number of each asset type selected in the header
+- Add tests for both React and Redux, what you feel should be tested
 
 If you feel comfortable, try allowing the user to drag and drop assets (instead of select) from the sidebar into Menu
 Preview. (react-dnd is really useful, but sensible alternatives are fine).
